@@ -1,0 +1,39 @@
+@use '../variables' as *;
+
+:root {
+  --bg-primary:      #{$bg-primary};
+  --bg-secondary:    #{$bg-secondary};
+  --bg-tertiary:     #{$bg-tertiary};
+  --bg-elevated:     #{$bg-elevated};
+
+  --text-primary:    #{$text-primary};
+  --text-secondary:  #{$text-secondary};
+  --text-muted:      #{$text-muted};
+
+  --accent-primary:  #{$accent-primary};
+  --accent-hover:    #{$accent-hover};
+  --accent-subtle:   #{$accent-subtle};
+
+  --success:         #{$success};
+  --warning:         #{$warning};
+  --error:           #{$error};
+  --info:            #{$info};
+
+  // Surface tokens for themed backgrounds
+  // Used for alert/badge backgrounds that must
+  // respond to dark/light theme toggle
+  --success-surface: rgba(16, 185, 129, 0.12);
+  --error-surface:   rgba(239, 68, 68, 0.12);
+  --warning-surface: rgba(245, 158, 11, 0.12);
+  --info-surface:    rgba(59, 130, 246, 0.12);
+
+  --success-border:  rgba(16, 185, 129, 0.2);
+  --error-border:    rgba(239, 68, 68, 0.2);
+
+  // Overlay for modals/dialogs
+  --overlay-bg:      rgba(0, 0, 0, 0.6);
+
+  // Spinner track color (on dark backgrounds)
+  --spinner-track:   rgba(255, 255, 255, 0.3);
+  --spinner-track-dark: rgba(0, 0, 0, 0.15);
+}
